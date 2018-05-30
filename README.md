@@ -11,3 +11,5 @@ For further information refer to the article.
 <br>
 
 For questions please contact: Dimitra Maoutsa [ dimitra.maoutsa <-at-> tu-berlin.de ] 
+
+### The article has to be cited in any use of the code.
