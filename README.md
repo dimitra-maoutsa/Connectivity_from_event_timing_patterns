@@ -5,6 +5,8 @@ Implementations of network simulations and reconstructions as described in:
 
 **Casadiego*, Maoutsa*, Timme, _Inferring network connectivity from event timing patterns_, Physical Review Letters 2018**  
 
+For further information refer to the article.
+
 
 <br>
 
