@@ -1,1 +1,1 @@
-Run **python3 inferring_connections_from_spikes.py** from the folder containing the subfolder _Data_.
+Run **python3 inferring_connections_from_spikes.py** from the folder containing the subfolder **Data**.
