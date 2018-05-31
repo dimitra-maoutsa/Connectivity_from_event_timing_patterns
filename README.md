@@ -13,12 +13,19 @@ For further information refer to the article.
 ### Support:
 For questions please contact: Dimitra Maoutsa [ dimitra.maoutsa <-at-> tu-berlin.de ] 
 
-### Reference:
+### Cite:
+<p align="center">
 
-@misc{1803.09974,
+@article{ELS18,
 Author = {Jose Casadiego and Dimitra Maoutsa and Marc Timme},
 Title = {Inferring network connectivity from event timing patterns},
 Year = {2018},
-Eprint = {arXiv:1803.09974},
+Journal = {Physical Review Letters},
+Volume={},
+Number={},
+Pages={},
+Publisher={APS}
 }
 
+
+</p>
