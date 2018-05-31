@@ -9,17 +9,17 @@ For further information refer to the article.
 
 
 <br>
-### Running the code
+### Running the code:
 1. Generate input data
     - Extract provided data
+    
     ```
     tar -xzvf simulate_network/Data.tar.gz
-    
     ```
     - Simulate network 
+    
     ```
     python simulate_network.py
-    
     ```
 2. Reconstruct
     ```
