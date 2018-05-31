@@ -14,7 +14,8 @@ For further information refer to the article.
     - Either extract provided data
     
         ```
-        tar -xzvf simulate_network/Data.tar.gz
+        cd Connectivity_from_event_timing_patterns/simulate_network
+        tar -xzvf Data.tar.gz
         ```
     - Or simulate network 
     
