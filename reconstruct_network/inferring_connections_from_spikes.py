@@ -31,6 +31,7 @@ patterns".
 ###################### Loading Dependencies ###############################
 ###########################################################################
 from __future__ import division
+import os
 import numpy as np
 from scipy.spatial import distance
 import scipy as sc
@@ -228,6 +229,20 @@ def solve_per_neuron(idn,N, spiketimes, taff,ISIs, num_interv, num_events):
 
 if __name__ == "__main__":
     
+    ###########################################################################
+    ################## Create paths for input files ###########################
+    ###########################################################################
+    this_dir = os.path.dirname(__file__) 
+    data_path = os.path.join(this_dir, "../simulate_network/Data/")
+    ex_neurons_path = "ex_neurons-101-0.gdf"
+    in_neurons_path = "in_neurons-102-0.gdf"
+    delay_path = "delay.dat"
+    conn_path = "connectivity.dat"
+    ex_file = os.path.join(data_path, ex_neurons_path)
+    in_file = os.path.join(data_path, in_neurons_path)
+    delay_file = os.path.join(data_path, delay_path)
+    connectivity_file = os.path.join(data_path, conn_path)
+    
     print('{:#<58}'.format(''))
     print('{:#<3} {:^50} {:#>3}'.format('','Reconstructing connectivity from spiketimes',''))
     print('{:#<58}'.format(''))    
@@ -236,10 +251,10 @@ if __name__ == "__main__":
     ######################## Load spiketimes ##################################
     ########################################################################### 
     # import spike data 
-    exspikes = np.genfromtxt('Data/ex_neurons-101-0.gdf') 
+    exspikes = np.genfromtxt(ex_file) 
     ex_ids, ex_inv = np.unique(exspikes[:,0],return_inverse=True) #unique neuron identifiers for excitatory neurons
     NE = ex_ids.size #number of excitatory neurons
-    inspikes = np.genfromtxt('Data/in_neurons-102-0.gdf')  
+    inspikes = np.genfromtxt(in_file)  
     in_ids, in_inv = np.unique(inspikes[:,0],return_inverse=True) #unique neuron identifiers for inhibitory neurons    
     NI = in_ids.size #number of inhibitory neurons                
     #number of observed neurons                 
@@ -276,7 +291,7 @@ if __name__ == "__main__":
     ########################################################################### 
     # interaction delays same structure as connectivity matrix
     # (interaction delay may be identified by optimisation procedure)
-    delay = np.genfromtxt('Data/delay.dat')
+    delay = np.genfromtxt(delay_file)
     if delay.shape==(N,N):
         De = delay #if NxN delay matrix with individual delays is provided
     else:
@@ -298,7 +313,7 @@ if __name__ == "__main__":
     ####################### Load true connectivity ############################
     ###########################################################################     
     
-    J = np.genfromtxt('Data/connectivity.dat')
+    J = np.genfromtxt(connectivity_file)
     J = J.T #first index presynaptic neuron, second index postsynaptic
     
     ###########################################################################
