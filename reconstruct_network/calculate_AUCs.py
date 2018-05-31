@@ -50,4 +50,4 @@ def calculate_AUCs(estimates, Jin, Jex):
     P = countinh + countex
     #weighted AUC score according to the prevalence of the two types of interactions in ground truth (Jin,Jex)
     wauc = roc_aucin * (countinh/P) + roc_aucex * (countex/P)  
-    return (roc_aucin  , roc_aucex, wauc,)
+    return (roc_aucin, roc_aucex, wauc)
