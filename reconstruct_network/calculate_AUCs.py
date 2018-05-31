@@ -44,8 +44,8 @@ def calculate_AUCs(estimates, Jin, Jex):
     roc_aucin = auc(fpr, tpr)
     
     
-    countinh = len(filter(lambda a: a<0 , Jin)) #numb. of inhibitory synapses in ground truth
-    countex = len(filter(lambda a: a>0 , Jex))  #numb. of inhibitory synapses in ground truth
+    countinh = len(list(filter(lambda a: a<0 , Jin))) #numb. of inhibitory synapses in ground truth
+    countex = len(list(filter(lambda a: a>0 , Jex)))  #numb. of inhibitory synapses in ground truth
     
     P = countinh + countex
     #weighted AUC score according to the prevalence of the two types of interactions in ground truth (Jin,Jex)
