@@ -17,14 +17,14 @@ For questions please contact: Dimitra Maoutsa [ dimitra.maoutsa <-at-> tu-berlin
 <p align="center">
 
 @article{ELS18,
-Author = {Jose Casadiego and Dimitra Maoutsa and Marc Timme},
-Title = {Inferring network connectivity from event timing patterns},
-Year = {2018},
-Journal = {Physical Review Letters},
-Volume={},
-Number={},
-Pages={},
-Publisher={APS}
+    Author = {Jose Casadiego and Dimitra Maoutsa and Marc Timme},
+    Title = {Inferring network connectivity from event timing patterns},
+    Year = {2018},
+    Journal = {Physical Review Letters},
+    Volume={},
+    Number={},
+    Pages={},
+    Publisher={APS}
 }
 
 
