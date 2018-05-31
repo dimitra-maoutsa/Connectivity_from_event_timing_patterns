@@ -1,3 +1,3 @@
-- **python inferring_connections_from_spikes.py**  contains the main routine for network reconstruction. Requires input data stored in **"../simulate_network/Data/"**.
+- **inferring_connections_from_spikes.py**  contains the main routine for network reconstruction. Requires input data stored in **"../simulate_network/Data/"**.
 - **calculate_AUCs.py** function calculated the weighted Area Under Curve [AUC] score for identifying E/I synapses
 - **otsu_method.py** function identifying the threshold for dichotomising samples from a bimodal distribution that maximises inter-modal variance 
