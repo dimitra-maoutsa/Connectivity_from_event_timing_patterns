@@ -11,16 +11,16 @@ For further information refer to the article.
 <br>
 ### Running the code:
 1. Generate input data
-    - Extract provided data
+    - Either extract provided data
     
-    ```
-    tar -xzvf simulate_network/Data.tar.gz
-    ```
-    - Simulate network 
+        ```
+        tar -xzvf simulate_network/Data.tar.gz
+        ```
+    - Or simulate network 
     
-    ```
-    python simulate_network.py
-    ```
+        ```
+        python simulate_network.py
+        ```
 2. Reconstruct
     ```
     python reconstruct_network/inferring_connections_from_spikes.py
