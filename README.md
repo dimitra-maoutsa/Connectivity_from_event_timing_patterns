@@ -25,11 +25,11 @@ For further information refer to the article.
         python Connectivity_from_event_timing_patterns/simulate_network/simulate_network.py
         ```
 2. Reconstruct
-    ```
+    ```bash
     python Connectivity_from_event_timing_patterns/reconstruct_network/inferring_connections_from_spikes.py
     
     ```
-    NOTE: **Caution:** Input data files should be stored in folder `simulate_network/Data/`
+    **Caution:** Input data files should be stored in folder `simulate_network/Data/`
 
 
 
