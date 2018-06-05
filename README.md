@@ -31,6 +31,8 @@ For further information refer to the article.
     ```
     CAUTION: **Caution:** Input data files should be stored in folder `simulate_network/Data/`
 
+CAUTION: **Caution:**
+This is something to be cautious about.
 
 <br>
 
