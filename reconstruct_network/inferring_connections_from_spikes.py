@@ -8,22 +8,15 @@ inferring_connections_from_spikes.py generates connectivity estimates for spikin
 Input
 ----------
 "Data/delay.dat" :  Contains the synaptic delay employed in the simulations
-
 "Data/ex_neurons" : Contains the corresponding spiking times of excitatory neurons
-
 "Data/in_neurons" : Contains the corresponding spiking times of inhibitory neurons
-
 "Data/connectivity.dat" :  Contains the connecitivy matrix used in the simulation
-
 Output
 ----------
-
 "AUC" : Area Under the Roc Curve score for the connectivity estimates for the entire network 
 
 Accompanying material to "Inferring network connectivity from event timing
 patterns".
-
-
 @author: dimitra
 """
 
@@ -38,12 +31,6 @@ import scipy as sc
 from matplotlib import pyplot as plt
 from otsu_method import otsu
 from calculate_AUCs import calculate_AUCs
-
-
-
-
-
-
 
 def solve_per_neuron(idn,N, spiketimes, taff,ISIs, num_interv, num_events):
     
