@@ -29,10 +29,9 @@ For further information refer to the article.
     python Connectivity_from_event_timing_patterns/reconstruct_network/inferring_connections_from_spikes.py
     
     ```
-    CAUTION: **Caution:** Input data files should be stored in folder `simulate_network/Data/`
+    NOTE: **Caution:** Input data files should be stored in folder `simulate_network/Data/`
 
-CAUTION: **Caution:**
-This is something to be cautious about.
+
 
 <br>
 
