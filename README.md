@@ -21,7 +21,7 @@ For further information refer to the article.
         cd Connectivity_from_event_timing_patterns/simulate_network
         tar -xzvf Data.tar.gz
         ```
-    - Or simulate network 
+    - Or simulate network (requires [NEST simulator] (http://www.nest-simulator.org/)
     
         ```
         python Connectivity_from_event_timing_patterns/simulate_network/simulate_network.py
@@ -31,6 +31,8 @@ For further information refer to the article.
     python Connectivity_from_event_timing_patterns/reconstruct_network/inferring_connections_from_spikes.py
     
     ```
+    CAUTION: **Caution:**
+    Input data files should be stored in folder `simulate_network/Data/`
 
 
 <br>
