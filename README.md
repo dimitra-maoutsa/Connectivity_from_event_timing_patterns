@@ -21,7 +21,7 @@ For further information refer to the article.
         cd Connectivity_from_event_timing_patterns/simulate_network
         tar -xzvf Data.tar.gz
         ```
-    - Or simulate network (requires [NEST simulator] (http://www.nest-simulator.org/)
+    - Or simulate network (requires [NEST simulator] (http://www.nest-simulator.org/) )
     
         ```
         python Connectivity_from_event_timing_patterns/simulate_network/simulate_network.py
