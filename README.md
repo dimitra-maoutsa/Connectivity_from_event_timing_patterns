@@ -36,10 +36,10 @@ For further information refer to the article.
 
 
 <br>
-***
+
 ### Support:
 For questions please contact: Dimitra Maoutsa [ dimitra.maoutsa <-at-> tu-berlin.de ] 
-***
+
 ### Cite:
 ```
 @article{ESL18,
