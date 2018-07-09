@@ -7,7 +7,7 @@ By mapping spike timing data in **event spaces** _(spanned by inter-spike and cr
 we identify synaptic interactions in networks of spiking neurons through **Event Space Linearisations (ESL)**  
 without assuming any particular neuronal dynamical model.  
 Here, we provide implementations of network simulations and reconstructions as described in:  
-**Casadiego*, Maoutsa*, Timme, _Inferring network connectivity from event timing patterns_, Physical Review Letters 2018**  
+**Casadiego\*, Maoutsa\*, Timme, _Inferring network connectivity from event timing patterns_, Physical Review Letters 2018**  
 For further information refer to the article.
 
 
