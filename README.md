@@ -12,7 +12,7 @@ For further information refer to the article.
 
 
 <br>
-***
+
 ### Running the code:
 1. Generate input data
     - Either extract provided data
