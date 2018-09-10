@@ -43,13 +43,18 @@ For questions please contact: Dimitra Maoutsa [ dimitra.maoutsa <-at-> tu-berlin
 ### Cite:
 ```
 @article{ESL18,
-    Author = {Jose Casadiego and Dimitra Maoutsa and Marc Timme},
-    Title = {Inferring network connectivity from event timing patterns},
-    Year = {2018},
-    Journal = {Physical Review Letters},
-    Volume={},
-    Number={},
-    Pages={},
-    Publisher={APS}
+  title = {Inferring Network Connectivity from Event Timing Patterns},
+  author = {Casadiego, Jose and Maoutsa, Dimitra and Timme, Marc},
+  journal = {Phys. Rev. Lett.},
+  volume = {121},
+  issue = {5},
+  pages = {054101},
+  numpages = {6},
+  year = {2018},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.121.054101},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.121.054101}
 }
+
 ```
