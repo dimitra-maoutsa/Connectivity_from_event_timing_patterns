@@ -3,6 +3,7 @@
 
 
 Model-free method for inferring synaptic interactions from spike train recordings.
+
 By mapping spike timing data in **event spaces** _(spanned by inter-spike and cross-spike intervals)_,  
 we identify synaptic interactions in networks of spiking neurons through **Event Space Linearisations (ESL)** .  
 Here, we provide implementations of network simulations and reconstructions as described in:  
