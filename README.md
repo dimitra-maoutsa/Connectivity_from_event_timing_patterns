@@ -9,7 +9,7 @@ we identify synaptic interactions in networks of spiking neurons through **Event
 Here, we provide implementations of network simulations and reconstructions as described in:  
 **Casadiego\*, Jose, Maoutsa\*, Dimitra, Timme, Marc,
  _Inferring network connectivity from event timing patterns_, Physical Review Letters 2018**  
-For further information refer to the article and the supplementary info (can be found [here](https://github.com/dimitra-maoutsa/Connectivity_from_event_timing_patterns/blob/di.ma-master-patch-52805/PhysRevLett.121.054101.pdf) and [here](https://github.com/dimitra-maoutsa/Connectivity_from_event_timing_patterns/blob/di.ma-master-patch-52805/Supplementary_Inferring_network_connectivity_from_event_timing_patterns.pdf) as pdf) .
+For further information refer to the [article](https://github.com/dimitra-maoutsa/Connectivity_from_event_timing_patterns/blob/di.ma-master-patch-52805/PhysRevLett.121.054101.pdf) and the [supplementary info](https://github.com/dimitra-maoutsa/Connectivity_from_event_timing_patterns/blob/di.ma-master-patch-52805/Supplementary_Inferring_network_connectivity_from_event_timing_patterns.pdf). (can be found [here](https://github.com/dimitra-maoutsa/Connectivity_from_event_timing_patterns/blob/di.ma-master-patch-52805/PhysRevLett.121.054101.pdf) and [here](https://github.com/dimitra-maoutsa/Connectivity_from_event_timing_patterns/blob/di.ma-master-patch-52805/Supplementary_Inferring_network_connectivity_from_event_timing_patterns.pdf) as pdf) .
 
 
 <br>
