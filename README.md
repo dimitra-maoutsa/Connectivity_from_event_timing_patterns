@@ -13,6 +13,11 @@ For further information refer to the [article](https://github.com/dimitra-maouts
 
 
 <br>
+<p align="center">
+<img src="event_space.png" alt="mapping from spike trains to event space" width=60% height=60%>
+</p>
+
+<br>
 
 ### Running the code:
 1. Generate input data
